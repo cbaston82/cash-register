@@ -30,7 +30,7 @@ $res = ($owe && $paying) && ($paying <=$owe) ? change($owe, $paying) : NULL;
                         <div class="row">
                             <div class="col-6">
                                 <input
-                                    placeholder="Enter total money owed"
+                                    placeholder="Enter total money Paying"
                                     name="owe"
                                     id="owe"
                                     value="<?php echo $owe ?>"
@@ -40,7 +40,7 @@ $res = ($owe && $paying) && ($paying <=$owe) ? change($owe, $paying) : NULL;
                             </div>
                             <div class="col-6">
                                 <input
-                                    placeholder="Enter total money paying"
+                                    placeholder="Enter total money owed"
                                     name="paying"
                                     id="paying"
                                     value="<?php echo $paying ?>"
